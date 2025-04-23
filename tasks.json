@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build and run",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-std=c++17",
+          "TempPaper_BRomaniuk.cpp",
+          "Customer.cpp",
+          "CustomerFunctions.cpp",
+          "Movie.cpp",
+          "MovieFunctions.cpp",
+          "-o",
+          "main.exe"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
